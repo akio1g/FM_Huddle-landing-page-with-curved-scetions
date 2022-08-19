@@ -41,3 +41,33 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*
+### Headings
+
+- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
+- Weights: 700
+
+### Body
+
+- Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Weights: 400, 600, 700
+*/
+
+* {
+	font-family: 'Open Sans';
+	font-weight: 400;
+}
+
+button {
+	font-weight: 600;
+}
+
+h1 {
+	font-family: 'Poppins';
+	font-weight: 700;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: $veryDarkCyan;
+}
