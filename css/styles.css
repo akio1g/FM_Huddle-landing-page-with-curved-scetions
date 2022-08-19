@@ -230,7 +230,7 @@ body {
         justify-content: space-between;
         margin-top: 20px; }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 875px) {
   /*
   ### Headings
   
