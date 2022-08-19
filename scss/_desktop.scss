@@ -9,3 +9,131 @@
 - Family: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Weights: 400, 600, 700
 */
+
+body {
+    header, main, footer {
+        padding: 95px;
+    }
+
+    header {
+        img {
+            width: 200px;
+            height: 35px;
+        }
+
+        button {
+            border-radius: 35px;
+            padding: 5px 35px;
+        }
+
+        button:hover {
+            background-color: $lightPink;
+            color: #FFF;
+            background-color: $lightPink;
+            box-shadow: 2px 2px 2px #7d7d7d
+        }
+    }
+
+    main {
+        .main-content-title {
+            margin-bottom: 20px;
+            font-size: 65px;
+        }
+        p {
+            font-size: 20px;
+            margin: 0px 80px 40px;
+        }
+
+        button {
+            height: 60px;
+            width: 300px;
+            margin-bottom: 65px;
+        }
+
+        #screen-mockup {
+            width: 80%;
+            margin-bottom: 30px;
+        }
+        .main-extra-content {
+            flex-direction: row;
+            justify-content: space-around;
+            div {
+                img {
+                    width: 45px;
+                }
+                h1 {
+                    font-size: 75px;
+                }
+                h3 {
+                    font-size: 25px;
+                }
+            }
+        }
+        .get-started:hover {
+            background-color: $lightPink;
+            box-shadow: 2px 2px 2px #7d7d7d
+        }
+    }
+
+    .bg-section-desktop {
+        display: block;
+    }
+
+    .bg-section-mobile {
+        display: none;
+    }
+
+    .content {
+        padding: 25px 100px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        img {
+            order: 1;
+            margin: 0px;
+            width: 50%;
+        }
+        article {
+            text-align: left;
+            h1 {
+                font-size: 35px;
+                margin: 5% 0%;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+
+    #ready-to-build {
+        text-align: center;
+
+        button {
+            border-radius: 35px;
+            padding: 5px 35px;
+            height: 60px;
+            width: 300px;
+        }
+
+        .get-started:hover {
+            background-color: $lightPink;
+            box-shadow: 2px 2px 2px #7d7d7d
+        }
+    }
+
+    footer {
+        grid-template: min-content min-content / 1fr 1fr;
+        column-gap: 100px;
+        .about {
+            order: -1;
+        }
+
+        button:hover {
+            background-color: $lightPink;
+            box-shadow: 2px 2px 1px #000000
+        }
+
+    }
+
+
+}
